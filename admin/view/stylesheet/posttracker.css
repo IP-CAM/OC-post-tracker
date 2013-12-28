@@ -1,0 +1,232 @@
+﻿#tracker_wiget {
+margin-left:auto;
+margin-right:auto;
+width:30%;
+}
+
+
+
+#tracker_wiget_wrapper {}
+#tracker_wiget_wrapper #tracker-form {}
+#tracker_wiget_wrapper #input-wrapper {}
+#tracker_wiget_wrapper #input-wrapper #track-number {}
+#tracker_wiget_wrapper #input-wrapper #form-submit {}
+
+#tracker_wiget_wrapper #carriers {}
+#tracker_wiget_wrapper #carriers .carrier {}
+
+
+#tracker_wiget_wrapper #carriers .carrier #tnt {}
+#tracker_wiget_wrapper #carriers .carrier #dhl {}
+#tracker_wiget_wrapper #carriers .carrier #ems {}
+
+#result {
+padding: 10px;
+}
+
+#result fieldset legend {
+    background: #fff;
+    border: 0px solid     #CCC;
+    position:static;
+    height:auto;
+    height: auto;
+    text-indent: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight:bold;
+}
+
+#result fieldset {
+    background: #fff;
+    border: 0px solid     #CCC;
+    margin-bottom: 0px;
+    padding:0;
+    margin-top: 0px;
+    position:static;
+}
+
+#result fieldset .fieldset-wrapper {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#result fieldset.collapsible .fieldset-legend {
+background: none;
+padding-left: 0px;
+}
+
+#result .item {
+/* border: 1px solid black; */
+margin: 20px 0;
+}
+
+
+#result .info-1 {
+    display: inline-block;
+    /*width: 35%;
+    border-right: 1px solid;*/
+    margin: 10px 10px 0px 10px;
+     width: 97.7%;
+}
+
+#result .info-2 {
+    /*float: right;*/
+    width: 60%;
+    margin: 0px 10px 10px 10px;
+}
+
+
+#table-wrapper {clear: both;}
+
+#result .table {
+width: 100%;
+font-size: 0.923em;
+margin: 0 0 10px;
+border: 1px solid 
+#BEBFB9;
+display: table;
+}
+
+#result .table .row {
+    clear: both;
+    display: table-row;
+}
+
+#result .table .row .cell {
+    display: table-cell;
+}
+
+#result .table .row .cell.date {
+    width: 15%;
+}
+
+#result .table .row .cell.time {
+    width: 10%;
+}
+
+#result .table .row .cell.geo {
+    width: 20%;
+}
+
+#result .table .row .cell.event {
+    width: 55%;
+    font-size: 15px;
+}
+
+
+
+div.row.header {
+    font-weight: bold;
+}
+
+div.row.header .cell {
+    text-transform: uppercase;
+    background: 
+    #E1E2DC;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+    border-color: 
+    #BEBFB9;
+    padding: 3px 10px;
+}
+
+#result .table .row.even .cell, #result .table .row.odd .cell {
+border-width: 1px;
+border-style: solid;
+border-color: #F3F4EE;
+padding: 3px 10px;
+}
+
+#result .table .row.odd .cell {border-color: white;}
+
+#result .table .row.even, #result .table .row.odd {
+border-width: 0 1px 0 1px;
+border-style: solid;
+border-color: #BEBFB9;
+background: #F3F4EE;
+}
+
+
+#result .table .row.even {
+    
+}
+
+#result .table .row.odd {
+    background: white;
+}
+
+#result a.fieldset-title {cursor: pointer}
+
+#result .break {
+/*
+display: block;
+width: 100%;
+height: 1px;
+background-color: 
+black;
+margin: 15px 0;
+*/
+border: 0px solid black;
+}
+
+#form-submit {font-size: 2em;}
+#track-number {font-size: 2em;}
+
+#result .track-monitor-form .track-submit {float: none;}
+
+#result .track-monitor-form .input-wrapper {
+    float: left;
+    width: 150px;
+    height: 26px;
+    background: url(img/input_bgr.png) no-repeat 0 0;
+    margin: 0;
+    padding: 0 18px 0 0;
+    position: relative;    
+}
+
+#result .track-monitor-form .label {
+    color: #404040;
+    display: block;
+    font: 12px/14px Verdana,Geneva,sans-serif;
+    height: 15px;
+    padding: 3px 5px;
+    position: absolute;
+    text-shadow: 0 1px 1px #D4D4D4;
+    width: 143px;
+}
+
+#result .track-monitor-form input.email,
+#result .track-monitor-form input.noteAWB {
+    -moz-box-sizing: content-box;
+    background: url("img/blank.gif") repeat scroll 0 0 transparent;
+    border: medium none;
+    box-shadow: none;
+    color: #404040;
+    font: 12px/14px Verdana,Geneva,sans-serif;
+    height: 15px;
+    margin: 0;
+    padding: 3px 5px;
+    position: relative;
+    text-shadow: 1px 1px 1px #D4D4D4;
+    width: 143px;    
+}
+
+#result .track-monitor-form .input-wrapper.note {
+    background: url(img/input_note_bgr.png) no-repeat 0 0;
+}
+
+
+
+#result .track-monitor-form .input-wrapper.note,
+#result .track-monitor-form .input-wrapper.note .label,
+#result .track-monitor-form input.noteAWB {
+    width: 435px;
+}
+
+.description {
+    clear: both;
+}
+
+#result .track-monitor-form input.error {
+    color: red;
+}
