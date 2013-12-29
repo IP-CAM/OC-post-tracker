@@ -211,11 +211,6 @@ border: 0px solid black;
     width: 143px;    
 }
 
-#result .track-monitor-form .input-wrapper.note {
-    background: url(img/input_note_bgr.png) no-repeat 0 0;
-}
-
-
 
 #result .track-monitor-form .input-wrapper.note,
 #result .track-monitor-form .input-wrapper.note .label,

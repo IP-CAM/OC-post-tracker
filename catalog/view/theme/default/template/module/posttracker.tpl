@@ -13,16 +13,7 @@
                     	<input type="text" id="track-number" name="track-number" value="" size="25" maxlength="60" autocomplete="on">
                     </td>
                 </tr>
-                <tr>
-                	<td>
-		                <div id="carriers" style="clear: both; display: inline-block; ">
-						<input id="ems" checked="" name="carrier" type="radio" value="ems"><span>EMS (Россия)</span>
-						<input id="usps" name="carrier" type="radio" value="usps"><span>USPS</span>
-						<input id="tnt" name="carrier" type="radio" value="tnt"><span>TNT</span>
-						<input id="dhl" name="carrier" type="radio" value="dhl"><span>DHL</span>
-						</div>
-                	</td>
-                </tr>
+                
                 <tr>
                     <td>
                         <input type="submit" value="<?php echo $text_find?>" class="iskat" onclick="return CheckInputCode();">

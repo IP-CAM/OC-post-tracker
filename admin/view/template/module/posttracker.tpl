@@ -106,39 +106,6 @@
 
   <div class="form-group">
     
-  <select class="form-control input-lg" name="destinationCountry">
-          <option value="RU">Россия</option>
-          <option value="UA">Украина</option>
-          <option value="BY">Республика Беларусь</option>
-          <option value="US">Соединённые Штаты Америки</option>
-          <option value="GB">Великобритания</option>
-          <option value="TH">Таиланд</option>
-          <option value="HK">Гонконг</option>
-          <option value="SG">Сингапур</option>
-          <option value="DE">Германия</option>
-          <option value="FR">Франция</option>
-          <option value="KZ">Казахстан</option>
-          <option value="LT">Литва</option>
-          <option value="LV">Латвия</option>
-          <option value="NO">Норвегия</option>
-          <option value="SE">Швеция</option>
-          <option value="PL">Польша</option>
-          <option value="CZ">Чехия</option>
-          <option value="MD">Молдова</option>
-          <option value="KR">Южная Корея</option>
-          <option value="CA">Канада</option>
-          <option value="PT">Португалия</option>
-          <option value="JP">Япония</option>
-          <option value="FJ">Фиджи</option>
-          <option value="IL">Израиль</option>
-          <option value="AZ">Азербайджан</option>
-          <option value="ES">Испания</option>
-          <option value="CH">Швейцария</option>
-          <option value="IT">Италия</option>
-          <option value="CY">Кипр</option>
-          <option value="BG">Болгария</option>
-      </select>
-    
 </div>
   <div class="form-group">
     <div class="progress progress-striped active">
