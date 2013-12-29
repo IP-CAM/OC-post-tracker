@@ -11,9 +11,9 @@
 		<?php if($barespond) { ?>
 		<div id="info_wrap">
 			<div class="routeStartLoc <?php echo $originCountryCode ?>"><span>ИЗ >:&nbsp;</span><span class="flag-<?php echo strtolower($originCountryCode) ?>"></span></div>
-			<div class="routeEndLoc <?php echo $destinationCountryCode ?>"><label>В >:&nbsp;</label><span class="flag-<?php echo strtolower($destinationCountryCode) ?>"></span></div>
-			<div class="number"><label>Номер :&nbsp;</label><span><?php echo $number ?></span></div>
-			<div class="transitTime"><label>Дней в пути :&nbsp;<?php echo $trackTime ?></label><span></span></div>
+			<div class="routeEndLoc <?php echo $destinationCountryCode ?>"><span>В >:&nbsp;</span><span class="flag-<?php echo strtolower($destinationCountryCode) ?>"></span></div>
+			<div class="number">Номер:&nbsp;<?php echo $number ?></div>
+			<div class="transitTime">Дней в пути:&nbsp;<?php echo $trackTime ?></div>
 		</div>
 			<div class="clr"></div>
 			<table class="table table-bordered table-condensed table-tracker table-striped text-left">

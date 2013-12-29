@@ -33,6 +33,7 @@ class ControllerModulePosttracker extends Controller {
 		$this->data['button_remove'] = $this->language->get('button_remove');
 		$this->data['entry_status'] = $this->language->get('entry_status');
 		
+		$this->document->addStyle('../admin/view/stylesheet/posttracker.css');
 
 		$config_data = array(
 				'tracker_example'

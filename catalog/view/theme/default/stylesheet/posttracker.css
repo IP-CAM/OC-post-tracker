@@ -15,6 +15,8 @@
 #info_wrap div {
 	display: inline-block;
 	margin: 0 10px;
+	vertical-align: middle;
+	line-height: 18px;
 }
 
 .table {
@@ -65,8 +67,18 @@
 	line-height: 18px;
 }
 
+.routeEndLoc span {
+	line-height: 18px;
+	float: left;
+}
+
 .routeStartLoc {
 	line-height: 18px;
+}
+
+.routeStartLoc span {
+	line-height: 18px;
+	float: left;
 }
 
 [class^="flag-"],

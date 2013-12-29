@@ -13,6 +13,7 @@
     <h1><img src="view/image/module.png" alt="" /> <?php echo $heading_title; ?></h1>
     <div class="buttons"><a onclick="$('#form').submit();" class="button"><span><?php echo $button_save; ?></span></a><a onclick="location = '<?php echo $cancel; ?>';" class="button"><span><?php echo $button_cancel; ?></span></a></div>
   </div>
+  <div class="content">
   <div id="tabs" class="htabs">
     <a href="#home-t-tab" >Расположение</a>
     <a href="#track-data" >Отследить</a>
@@ -89,7 +90,8 @@
     </form>
   </div>
    <div id="track-data">
-    <form class="form-inline" role="form" id="quick-check-form" action="https://moyaposylka.ru/quick-check/" method="post">
+
+   <form class="form-inline" role="form" id="quick-check-form" action="https://moyaposylka.ru/api/json/tracker/v1" method="post">
 
 
   <span id="tracker-type" data-target="/tracker-type/"></span>
@@ -146,7 +148,9 @@
     </form>
     <div id="quick-check-result"></div>
    </div>
+   <div class="content">
 </div>
+
 <script type="text/javascript"><!--
 var module_row = <?php echo $module_row; ?>;
 
