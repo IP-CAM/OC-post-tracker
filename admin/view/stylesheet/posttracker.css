@@ -300,6 +300,49 @@ border: 0px solid black;
 	float: left;
 }
 
+.form-group.has-error input {
+    background: red;
+    color: #FFF;
+}
+
+.form-group {
+display: inline-block;
+margin: 0 20px;
+}
+
+.form-control.input-lg {
+padding: 5px;
+font-size: 15px;
+}
+
+.btn.btn-success.btn-lg {
+background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(top,  #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+padding: 10px;
+border: 0;
+border-radius: 5px;
+color: #fff;
+text-shadow: 1px 1px 1px #333;
+cursor: pointer;
+font-size: 15px;
+}
+
+#quick-check-form {
+    text-align: center;
+    border-bottom: 1px dashed #444;
+    padding-bottom: 20px;
+}
+
+.quick-check-result {
+    margin-top: 20px;
+}
+
 [class^="flag-"],
 [class*=" flag-"] {
   display: inline-block;
