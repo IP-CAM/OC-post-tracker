@@ -1,4 +1,2 @@
 OC-post-tracker
-===============
-Отслеживание почтовых отправлений для Opencart .1.5.x
-Модуль работает на основе сервиса moyaposylka.ru
+Tracking mailings for Opencart .1.5.x module works on the basis of service moyaposylka.ru
